@@ -7,7 +7,7 @@ var gulp         = require('gulp'),
     uglify       = require('gulp-uglify'),
     cleanCSS     = require('gulp-clean-css'),
     concat       = require('gulp-concat'),
-    //imagemin     = require('gulp-imagemin'),
+    imagemin     = require('gulp-imagemin'),
     browserSync  = require('browser-sync').create();
 
 // optimize html
